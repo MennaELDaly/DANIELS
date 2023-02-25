@@ -708,6 +708,18 @@ footer .copyright a:hover{
 
 /* =====> MQ <====*/
 
+@media only screen and (max-width: 600px){
+    .about .group {
+        padding-inline:0px ;
+    }
+    .about .content .buton {
+        padding: 10px 15px;
+    }
+    .work .nav-pills .nav-link {
+        
+        padding-inline: 12px;
+    }
+}
 @media only screen and (max-width: 768px){
 
     .home .title {
@@ -722,7 +734,11 @@ footer .copyright a:hover{
         width: 100%;
     }
 }
-
+@media only screen and (max-width: 992px){
+    .about .group {
+        margin-top: 40px;
+    }
+}
 @media only screen and (min-width: 768px) and (max-width: 1345px){
 
     .contact .form .name {
