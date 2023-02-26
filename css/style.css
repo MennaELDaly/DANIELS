@@ -96,8 +96,10 @@ nav li a{
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.3);
     color: white;
-    cursor: pointer;
-    
+    cursor: pointer;  
+}
+.home .icon a{
+    all: unset;
 }
 .home .icon i{
     transition: all 0.5s ease;
@@ -450,7 +452,7 @@ section .title h3::after{
     content: "";
     position: absolute;
     transform: translateX(-50%);
-    animation: counter1 1s ;
+    animation: counter1 2s ;
     animation-fill-mode:forwards;
 }
 
@@ -484,7 +486,7 @@ section .title h3::after{
     content: "";
     position: absolute;
     transform: translateX(-50%);
-    animation: counter2 1s ;
+    animation: counter2 2s ;
     animation-fill-mode:forwards;
 }
 
@@ -518,7 +520,7 @@ section .title h3::after{
     content: "";
     position: absolute;
     transform: translateX(-50%);
-    animation: counter3 1s ;
+    animation: counter3 2s ;
     animation-fill-mode:forwards;
 }
 
@@ -552,7 +554,7 @@ section .title h3::after{
     content: "";
     position: absolute;
     transform: translateX(-50%);
-    animation: counter4 1s ;
+    animation: counter4 2s ;
     animation-fill-mode:forwards;
 }
 
@@ -704,7 +706,6 @@ footer .copyright a{
 footer .copyright a:hover{
     color: #f8f9fa;
 }
-
 
 /* =====> MQ <====*/
 
